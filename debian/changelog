@@ -1,0 +1,5 @@
+rapid-setup (1.0.0-alpha) bionic; urgency=medium
+
+    * Initial release of the package
+
+ -- Vincent Hu <vincent.guohua.hu@gmail.com> Wed, 15 Apr 2020 13:53:26 +0800

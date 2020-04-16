@@ -1,0 +1,16 @@
+Source: rapid-setup
+Section: utils
+Priority: optional
+Maintainer: Vincent Hu <vincent.guohua.hu@gmail.com>
+Build-Depends: debhelper (>=9),python3-all,python3-distutils-extra
+X-Python2-Version: >= 3.2
+Standards-Version: 3.9.6
+
+Package: rapid-setup
+Architecture: amd64
+Essential: no
+Depends:${shlibs:Depends},
+        ${misc:Depends},
+        ${python3:Depends}
+Description: Rapid SetUp
+    A simple Debian Package which packaging individual settings, resources and scripts for rapid setup when moving to a new machine.
