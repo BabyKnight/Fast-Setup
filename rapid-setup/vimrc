@@ -1,0 +1,7 @@
+set nu!
+set ai!
+set cul
+set hlsearch
+set ts=4
+set expandtab
+set ls=2
