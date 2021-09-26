@@ -1,4 +1,10 @@
-rapid-setup (1.0.0-alpha) bionic; urgency=medium
+fast-setup (0.0.2-alpha) focal; urgency=medium
+
+    * Support configure VIM
+
+ -- Vincent Hu <vincent.guohua.hu@gmail.com> Sat, 26 Sep 2021 17:42:35 +0800
+
+fast-setup (0.0.1-alpha) focal; urgency=medium
 
     * Initial release of the package
 
