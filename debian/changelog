@@ -1,6 +1,6 @@
 fast-setup (0.0.2-alpha) focal; urgency=medium
 
-    * Support configure VIM
+    * Support apply default vim configuration
 
  -- Vincent Hu <vincent.guohua.hu@gmail.com> Sat, 26 Sep 2021 17:42:35 +0800
 
