@@ -31,10 +31,11 @@ function Interactive (){
 
 	if [[ "$choice" == "Y" || "$choice" == "y" ]] ; then
 		echo -e "Configuring \033[32m $CONFIG \033[0m"
-		# TODO print the config first, will write to file later
-		echo $CONFIG
+		# save setting to the file
+		echo "\" $QUESTION" >> $TARGET_CONFIG
+		echo $CONFIG >> $TARGET_CONFIG
 	else
-		echo "Ignore settings of $CONFIG"
+		echo -e "\033[33mSkip to settings of \033[0m$CONFIG"
 	fi
 }
 
@@ -51,9 +52,10 @@ else
 	if [ ! -f $TARGET_CONFIG ]; then
 			echo ".vimrc file NOT found at home directory"
 			echo "Creating ~/.vimrc ..."
-			touch ~/.vimrc
+			touch $TARGET_CONFIG
 	else
 			echo ".vimrc file found at home directory"
+			echo -e "\033[33mPlease Note: Following operation will overwrite all the same settings you had before!\033[0m"
 	fi
 
 	# Step 3: manually config by selecting each items
