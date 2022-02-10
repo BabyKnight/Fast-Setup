@@ -19,6 +19,13 @@ OS: Ubuntu 18.04 and later version (Other systems and Versions are not guarantee
 
 ## Feature list
 - Configure Vim / apply default Vim settings
+- ![](Images/config_vim.png)
 
 ## Release Note (Change log)
+- 0.0.1-alpha
+	- Initial release of the package
+- 0.0.2-alpha
+	- Add support to overwrite the default vim settings
+- 1.0.0
+	- Add support of using default settings for vim and custom settings
 
