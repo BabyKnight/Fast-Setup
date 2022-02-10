@@ -1,0 +1,39 @@
+" show number of line
+set nu!
+" highlight the line in position of cursor
+set cul
+" show line info in status bar
+set ruler
+
+" highlight the search result when do search
+set hlsearch
+" when searching, jump to the match result when typing each character
+set incsearch
+
+" set tab to 4 Space 
+set ts=4
+" convert tab to Space
+""""""set expandtab
+" when press ENTER, indent for next line will keep the same as previous line
+" set ai!
+set autoindent
+" smart indent, e.g. C lauguage will auto indent when jump to next line
+set smartindent 
+
+set ls=2
+" enable file type detect and enable specific indent 
+filetype indent on
+" whenn input an left brackets, auto match right brackets
+set showmatch
+
+" highlight syntax
+syntax on
+
+" when press TAB, vim wil show number of SPACE
+set tabstop=2
+
+" press >> will increase indent, << wil decrease indent, == will cancel all indent
+set shiftwidth=4
+
+" enable color 256
+set t_Co=256
