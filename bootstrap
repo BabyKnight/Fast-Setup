@@ -1,0 +1,1 @@
+sudo apt-get install build-essential debhelper make autoconf automake dpkg-dev fakeroot pbuilder gnupg
